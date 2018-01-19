@@ -13,7 +13,8 @@ namespace VSGitDemo2
             string[] colours = { "Coffee", "Tea", "Juice", "Milk", "Water", "Sarsaparilla" };
             Random rnd = new Random();
             int index = rnd.Next(0, colours.Length);
-            Console.WriteLine("Have we earned a {0} break?", colours[index]);
+            Console.WriteLine("Have we earned a {0} break, youngsters?", colours[index]);
+            //Something something Feature 1
         }
     }
 
