@@ -10,7 +10,8 @@ namespace VSGitDemo2
     {
         public static void Main()
         {
-            string[] colours = { "Coffee", "Tea", "Juice", "Milk", "Water", "Sarsaparilla", "Carbonated Drink"  };
+            string[] colours = { "Coffee", "Tea", "Juice", "Milk", "Water", "Sarsaparilla",
+                "Carbonated Drink", "Lemonade", "Soda", "Ice Tea", "Ginger Beer", "Root Beer"  };
             Random rnd = new Random();
             int index = rnd.Next(0, colours.Length);
             Console.WriteLine("Have we earned a {0} break, youngsters?", colours[index]);
