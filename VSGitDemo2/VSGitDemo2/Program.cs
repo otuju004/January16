@@ -12,7 +12,7 @@ namespace VSGitDemo2
         {
             string[] drinks = { "Coffee", "Tea", "Juice", "Milk", "Water", "Sarsaparilla",
                 "Carbonated Drink", "Lemonade", "Soda", "Ice Tea", "Ginger Beer", "Root Beer",
-            "Smoothie", "Protein Shake", "Soy Milk" };
+            "Smoothie", "Protein Shake", "Soy Milk" , "Hot Cocoa" };
             Random rnd = new Random();
             int index = rnd.Next(0, drinks.Length);
             Console.WriteLine("Have we earned a {0} break, youngsters?", drinks[index]);
