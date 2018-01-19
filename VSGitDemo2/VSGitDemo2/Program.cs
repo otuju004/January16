@@ -10,12 +10,12 @@ namespace VSGitDemo2
     {
         public static void Main()
         {
-            string[] colours = { "Coffee", "Tea", "Juice", "Milk", "Water", "Sarsaparilla",
+            string[] drinks = { "Coffee", "Tea", "Juice", "Milk", "Water", "Sarsaparilla",
                 "Carbonated Drink", "Lemonade", "Soda", "Ice Tea", "Ginger Beer", "Root Beer",
             "Smoothie", "Protein Shake", "Soy Milk" };
             Random rnd = new Random();
-            int index = rnd.Next(0, colours.Length);
-            Console.WriteLine("Have we earned a {0} break, youngsters?", colours[index]);
+            int index = rnd.Next(0, drinks.Length);
+            Console.WriteLine("Have we earned a {0} break, youngsters?", drinks[index]);
             //Something something Feature 1
         }
     }
